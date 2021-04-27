@@ -1,0 +1,558 @@
+title: test_person_log
+tags: test
+colorID: 0
+position: -5692,587
+---
+m: Yesterday, 10:32 PM
+l: hey hey you you i wanna be your boyfriend
+r: no way no way i think u need to check yourself
+l: hey hey you you i wanna be your boyfriend
+r: no way no way i think u need to check yourself
+r: this is where the log ends
+<< set_timestamp test 2020 6 2 12 3 >>
+<< set_unread test >>
+===
+title: test_person_start
+tags: 
+colorID: 0
+position: -5376,541
+---
+c: August 2, 12:02 AM
+l: this is the first of the new messages
+<< show_typing test 3 >>
+c: August 2, 12:32 AM
+l: i will wait 5 seconds
+<< wait_sec 5 >>
+<< show_typing test 3 >>
+l: now i will scribble my message
+<< show_typing test 2 >>
+<< wait_sec 3 >>
+<< show_typing test 1 >>
+l: lol
+<< show_typing test 2 >>
+l: how do u like that?
+===
+title: test_2_start
+tags: test_2
+colorID: 0
+position: -5380,786
+---
+<<  wait_sec 3 >> 
+l: hey could you pick something?
+-> option 1
+    r: i picked
+    <<  show_typing test_2 2 >>
+    l: you slayin, queen
+-> option 2
+    r: i'm picking option 2 now
+    <<  show_typing test_2 2 >>
+    l: you picked option 2, queen
+-> option 3
+    r: wow wee option 3
+    <<  show_typing test_2 2 >>
+    l: you did option 3, queen
+<<  show_typing test_2 2 >>
+l: that was sickening
+<<  wait_sec 2 >>
+<<  show_typing test_2 2 >>
+l: hello how are you doing
+===
+title: test_2_log
+tags: test_2
+colorID: 0
+position: -5690,812
+---
+m: Yesterday, 10:32 PM
+l: met, consectetur adipiscing elit. Proin bibendum sollicitudin tempus. Donec vulputate nibh quis placerat facilisis. Pellentesque ut felis interdum magna condimentum auctor a in ligula. Cras vel massa pharetra, hendrerit leo nec, tempor tortor. Duis tellus lacus, cursus et lacinia non,
+r: Cras vel massa pharetra, hendrerit leo nec, tempor tortor. Duis tellus lacus, cursus et lacinia non,
+r: tempor tortor. Duis tellus lacus, cursus et lacinia non,
+r:  Duis tellus lacus, cursus et lacinia non,
+<< set_timestamp test_2 2019 5 24 12 3>>
+<< set_unread test_2 >>
+===
+title: bff_log
+tags: bff
+colorID: 0
+position: -4906,564
+---
+c: Aug 2 2020, 4:43 PM
+l: DON'T INSTALL THE NEW UPDATE!
+r: what?
+l: it's all bugged most of my messages were gone and most of my apps are now stuck loading :(
+r: oh shoot i literally just updated
+l: rip our message log
+l: what a convenient explanation for why we (as BFFs) don't have that many message logs
+r: what?
+l: oh whoops didn't mean to send that
+l: ignore mEeee !!!
+c: Aug 3 2020, 7:43 PM
+l: omg child
+l: did you see the last episode of the show
+l: omg omg omg OMG
+r: ya i saw it
+r: was alright
+l: alright? ALRIGHT?
+l: child u are not my fren anymore
+l: the ep was GREAT
+l: the TWISTS
+r: eh
+l: the DRAMA
+r: meh
+l: wow ok poopypants over here
+r: lmao i just couldn't really get into it u know
+r: my life already has enough TWISTS and DRAMA
+l: that's fair :(
+l: sorry to hear that bud
+r: thanks
+<< set_timestamp bff 2020 7 3 19 43 >>
+===
+title: bff_start
+tags: bff
+colorID: 0
+position: -4653,568
+---
+<< wait_sec 15 >>
+<< show_typing bff 1 >>
+c: 12:32 AM
+l: hey how's it going
+<< show_typing bff 1 >>
+l: you were gone all day
+<< show_typing bff 1 >>
+l: i'm worried :(
+<< show_typing bff 5 >>
+l: you don't have to reply right away but i just want to send that positive energy your way!!!
+<< wait_sec 1 >>
+l: uwu.gif
+-> i don't think the gif worked
+    r: i don't think the gif worked
+-> haha thanks
+    r: haha thanks
+<< wait_sec 1 >>
+r: but i'm doing okay, guess
+<< wait_sec 1 >>
+r: could be better
+<< wait_sec 1 >>
+r: but given what's going on, i guess i'm doing the best i can
+<< wait_sec 3 >>
+<< show_typing bff 2 >>
+l: well it really doesn't sound like you're "doing the best u can"
+-> i guess
+r: i guess
+<< wait_sec 1 >>
+<< show_typing bff 2 >>
+l: well, what can i do to help
+-> could try to get me a new job
+    r: could try to get me a new job
+    << show_typing bff 2 >>
+    l: u got it
+    << show_typing bff 2 >>
+    l: i'll hire u right now, on the spot
+    << wait_sec 1 >>
+    r: what's my job now then?
+    << show_typing bff 2 >>
+    l: write a script for this game
+    << show_typing bff 2 >>
+    l: shoot, sent that to the wrong person
+    << wait_sec 1 >>
+    r: lmao
+-> could try to get a date for me
+    r: could try to get a date for me
+    << show_typing bff 2 >>
+    l: could always date me
+    << show_typing bff 2 >>
+    l: haha jk
+    << show_typing bff 2 >>
+    l: unless?
+    << wait_sec 1 >>
+    r: bruh
+<< wait_sec 5 >>
+<< show_typing bff 2 >>
+l: well you know i'm always here 
+<< show_typing bff 2 >>
+l: you're always welcome to shoot me a message
+-> that's real sweet
+    r: that's real sweet of u
+    << wait_sec 1 >>
+    r: keep it up and u might attract all the ants
+    << show_typing bff 2>>
+    l: i'm srs, ok! you shouldn't hesitate to reach out w anything.
+    << wait_sec 1 >>
+-> well actually i'm having trouble sleeping
+r: well i've kinda been having sleep troubles
+<< show_typing bff 1 >>
+l: recently?
+-> ya
+r: ya idk what's up, every night i just lay here, thinking
+<< show_typing bff 2 >>
+l: bet you it's all the stress
+<< show_typing bff 2 >>
+l: always found that it hits you in ways u don't notice
+<< wait_sec 2 >>
+-> ya, I guess
+r: ya, I guess
+<< show_typing bff 2 >>
+l: when i'm stressed i usually try to break it all down
+<< show_typing bff 4 >>
+l: i mean i feel like most of my stress comes from thinking about my stress, you feel?
+<< show_typing bff 3 >>
+l: like my brain just makes everything feel so overwhelming
+<< show_typing bff 3 >>
+l: all the unknowns just make everything feel like it's way too much
+<< show_typing bff 2 >>
+l: but it's all about taking things one step at a time
+-> i just miss feeling happy
+r: i just miss waking up and feeling happy, you know?
+<< show_typing bff 2 >>
+l: well you're just thinking that because you're sad
+<< show_typing bff 2 >>
+l: happiness comes in little pockets hidden throughout the day 
+<< show_typing bff 2 >>
+l: much easier to notice all the sad pockets
+-> yeah, i guess
+r: yeah, i guess
+<< show_typing bff 2 >>
+l: well, it's getting pretty late for me now so i'm going to head out
+-> thanks
+r: thanks, bud
+<< show_typing bff 2 >>
+l: of course
+<< show_typing bff 2 >>
+l: oh before i go
+<< show_typing bff 2 >>
+l: my trick to fall asleep is to lay completely still
+<< show_typing bff 2 >>
+l: don't let your mind think about things, just focus on being still
+<< show_typing bff 2 >>
+l: otherwise you'd just fall deeper and deeper into your thoughts
+<< show_typing bff 2 >>
+l: anyways, gn! ttyl :)
+<< set_ending bff >>
+===
+title: car_log
+tags: car
+colorID: 0
+position: -4906,564
+---
+c: July 13 2020, 3:43 PM
+l: Important message sent to you by your car insurance to inform you that your insurance is in need of renewal.
+l: Please reply for support.
+<< set_timestamp car 2020 6 13 3 43 >>
+===
+title: car_start
+tags: car
+colorID: 0
+position: -4653,568
+---
+-> help!
+    r: oh no, please help!
+    t: haha, let's see how this goes
+    [[ car_start_help ]]
+===
+title: car_start_help
+tags: 
+colorID: 0
+position: -4360,389
+---
+<< wait_sec 2 >>
+<< show_typing car 6 >>
+L: Thank you for your prompt response :) We will need some information from you to be able to help you with your problem.
+<< show_typing car 2 >>
+L: We apologize for the inconvenience.
+<< show_typing car 2 >>
+L: And we thank you for your patience.
+-> what info do you need?
+    r: what info do you need?
+-> but i don't have a car?
+    r: but i don't have a car
+    << show_typing car 4 >>
+    l: I apologize for that. Regardless, I think it'd be best if we align on the information we have.
+<< show_typing car 2 >>
+l: Your name on file is "Bob Salami". Is that right?
+-> yep
+r: yep
+<< show_typing car 2 >>
+l: Thank you for you confirmation.
+<< show_typing car 2 >>
+l: To confirm your identity, please identify your credit card number.
+-> i don't wanna get up and get it
+r: i don't wanna get up and get my wallet
+<< wait_sec 1 >>
+r: i'm in bed. it's midnight.
+<< wait_sec 1 >>
+r: why are you still replying to this thread
+<< show_typing car 4 >>
+l: Our insurance company ensures support 24/7.
+<< show_typing car 2 >>
+l: As an employee, I want to make sure you feel supported throughout the process.
+<< show_typing car 1 >>
+l: I apologize for the timing of this message, but I believe it'd be best to resolve this issue as soon as possible.
+-> alright here's my credit card number
+r: alright my credit card number is
+r: 2X12-XDLM-6969-420
+<< show_typing car 4 >>
+l: Thank you! Let me confirm your input with our system real quick.
+<< wait_sec 3 >>
+<< show_typing car 4 >>
+l: We found a matching account and have confirmed that your fees have been paid for.
+<< show_typing car 2 >>
+l: Is there anything else I can help you with?
+-> all good
+    r: all good :)
+    [[car_start_ending]]
+-> actually...
+r: actually...
+<< wait_sec 1 >>
+r: i'm having trouble falling asleep.
+<< show_typing car 2 >>
+l: Is there something in your mind you'd like to discuss?
+-> idk there's a lot
+r: idk there's a lot
+<< show_typing car 2 >>
+l: That's perfectly normal.
+<< show_typing car 3 >>
+l: At night is when everything's quiet and all we can hear are our thoughts.
+<< show_typing car 3 >>
+l: Sometimes there's good thoughts and sometimes there's bad thoughts.
+<< show_typing car 3 >>
+l: But you can't keep listening to the bad thoughts. Sometimes you have to give yourself some credit.
+-> there's just so much
+    r: there's just so much
+-> you're right...
+    r: you're right...
+<< show_typing car 2 >>
+l: I'm sure there's a lot you're going through.
+<< show_typing car 2 >>
+l: And I can't begin to imagine it all, but you've gotta take it all one at a time.
+<< show_typing car 2 >>
+l: Have you done all you need to do for the day?
+-> actually...
+    r: i feel like i should've done more today...
+    << show_typing car 4 >>
+    l: Sure we can always try to be more productive, but you can't measure your self worth from your productivity.
+    << show_typing car 2 >>
+    l: The world's up-side-down, go a little easier on yourself.
+-> yeah, I guess...
+    r: yeah, I guess...
+<< show_typing car 4 >>
+l: Maybe it'd be best for you to drift to sleep.
+<< show_typing car 4 >>
+l: Just remember not to fall deep into your thoughts. They'll mislead you in the dead of night.
+<< show_typing car 4 >>
+l: Is there anything else I can help you with?
+-> i guess not?
+    r: i guess not?
+-> could i get a million dollars
+    r: could i get a million dollars
+    << show_typing car 4 >>
+    L: Sure thing, I'm processing that transaction right now.
+<< show_typing car 4 >>
+l: I hope I was able to support you adequately today.
+[[car_start_ending]]
+===
+title: car_start_ending
+tags: 
+colorID: 0
+position: -4372,764
+---
+<< show_typing car 2>>
+l: Hope you have a good night :)
+<< show_typing car 2>>
+l: Please make sure to provide a review for this game in the comments section.
+<< show_typing car 2>>
+l: Uh... I mean for my service. Your input will be valuable in improving my service.
+<< set_ending car >>
+===
+title: sid_log
+tags: sid
+colorID: 0
+position: -5017,1117
+---
+m: May 24 2020, 10:54 PM
+l: fine you happy now
+r: uhh hmmmm :))))
+r: isn't it so much better than messaging on a dating app
+l: i never really thought about it
+l: too distracted trying to think of ways to impress you, you know?
+l: anyways, gtg workout! ttyl
+r: alrighty then ttyl
+m: May 25 2020, 2:54 PM
+l: hey what're you up to?
+r: just meal prepped for the week!
+r: some nice red curry
+r: but i might've made too much
+l: how much did you make?
+r: two kimchi jar's worth
+r: whoops
+l: dang that's a LOT of curry
+r: welp good thing I have the rest of the week off
+l: haha, maybe I can help
+l: get you a little hungrier you know?
+r: LMAO what are you tryin right now
+l: I'm just a helpful kinda person, you know?
+r: yeah RIGHT
+r: why are you tryin' to thirst in the middle of the day
+r: i'm tryin' to work okay
+l: haha am i making it hard for you to concentrate?
+l: whoopsie i didn't mean to do that
+r: uh huh????
+l: I just can't help it!
+l: you're wayyyy too cute ;)
+r: i bet you say that to everyone you match with
+l: lies !!!!
+l: i don't play games
+l: i just say what I mean, you know
+l: and in this case, I really mean it :)
+r: well then, why don't you prove it?
+l: prove it how?
+r: maybe over some drinks this weekend?
+l: haha sure, Saturday sound good?
+r: sounds like a plan :)
+m: May 26 2020, 5:16 PM
+l: hey, I need help with something
+r: yeah, what's up?
+l: i'm trying to come up with an excuse
+l: to text this real cute person
+r: uhhh hmmm
+l: yeah, i really wanna talk to them but
+l: i don't wanna come off as clingy, you know?
+r: maybe dsecribe this person a little bit more. that way I can help think of something
+l: well this person is a total catch, honsetly
+l: they've got a quick wit and a charming sense of humor
+l: and a masterchef too
+l: I heard they're real good at making curry
+l: oooh just thinking about this person makes me crave some dessert ;)
+r: omg stoPPPP
+r: you little devil
+l: ;)
+l: i just want to be your little devil
+r: okay i am putting my phone down
+r: and walking awayyyyy
+l: noooooooooo
+l: fine i'll stop, if that means I get to talk to you more
+l: i'll be the most chaste person you've ever met
+l: my friends call me Mary in the streets
+r: LMAO what does that even mean
+l: well if you were a Catholic school girl like me, you'd know
+r: of course of course
+m: May 27 2020, 6:32 PM
+r: hey, got caught in traffic -- will be a little late
+l: no worries! can't wait to see you :)
+r: same here
+m: May 29 2020, 11:21 AM
+r: hey, just wanted to let you know that I had a good time the other day
+l: what's this?
+l: am I talking to the right person?
+l: who's this person tryin' to show affection
+r: heyyyyy
+l: i'm sorry but I don't flirt before marriage
+l: it's one of my chastity pledges
+r: yeah, right you were real chaste last night
+l: i have absolutely no clue what you're talking about
+r: well alrigghhttt thennn
+r: i was going to suggest a little something something
+r: but if ms Mary Chaste Sue wants to spend her nights praying, then I'll just have to find something else to do
+l: nooooooooooooo
+l: fine you win
+r: hehe
+r: what're you up to on Thursday?
+l: ah dang, i'm busy then
+r: Friday?
+l: Friday sounds good!
+m: June 1 2020, 7:49 PM
+l: Hey sorry I can't do this Friday anymore :(
+l: I'm booked all weekend, something came up :(((((
+r: aww that's alright then
+r: when are you free?
+m: June 2 2020, 6:49 PM
+r: what about next weekend?
+m: June 3 2020, 2:14 PM
+l: hey, sorry it's been real busy
+l: been trying to use less messaging apps
+r: haha all good
+r: what're you up to?
+l: oh you know, work and side-work
+r: dang, what a busy been
+r: hope you're not overworking yourself
+l: haha of course not ;)
+<< set_timestamp sid 2020 6 3 14 14 >>
+===
+title: sid_start
+tags: sid
+colorID: 0
+position: -4789,1066
+---
+-> hey, u up?
+m: 12:32 AM
+r: hey, u up?
+<< wait_sec 1 >>
+t: god why did I say that
+<< wait_sec 15 >>
+-> I miss you
+r: I miss you :(
+<< wait_sec 1 >>
+t: ahhhhhhhhhh
+<< wait_sec 15 >>
+-> I made curry the other day
+r: I made curry the other day
+<< wait_sec 1 >>
+r: Tasted even better than last time
+<< wait_sec 15>>
+-> I really miss talking to you
+r: I really miss talking to you
+<< wait_sec 1 >>
+r: You know I just miss feeling appreciated
+<< wait_sec 1 >>
+r: Having someone tell me I'm worth it you know?
+r: ...
+t: god I can't with this
+<< wait_sec 15 >>
+-> at least tell me something
+r: at least tell me something
+<< wait_sec 1 >>
+r: have the balls to tell me off
+<< wait_sec 2 >>
+r: to tell me you're not ready or to tell me i'm horrible
+<< wait_sec 2 >>
+r: do you really want me to believe that that was it
+<< wait_sec 1 >>
+r: that there's nothing else left here
+<< wait_sec 1 >>
+r: i thought at least we could be friends
+<< wait_sec 3 >>
+r: some days i'm just hopeful... "hey, maybe you're still on that messaging app cleanse"
+<< wait_sec 1 >>
+r: maybe one day you'll be back
+<< wait_sec 1 >>
+r: maybe one day my phone will ring and i'll feel excited about it
+<< wait_sec 10 >>
+<< show_typing sid 5 >>
+<< wait_sec 10 >>
+-> i'm done trying to get over you
+r: i'm done trying to get over you
+<< wait_sec 1 >>
+r: i want to be mad at you
+<< wait_sec 1 >>
+r: for this silence
+<< wait_sec 1 >>
+r: but i can't just forget how good you made me feel to be me
+<< wait_sec 1 >>
+r: ...
+<< wait_sec 1 >>
+r: thanks for that i guess
+<< wait_sec 10 >>
+<< show_typing sid 10 >>
+<< wait_sec 30 >>
+-> best of luck with whatever you got going
+r: i don't know what you're going through
+<< wait_sec 1 >>
+r: and i wished you'd let your wall down for me
+<< wait_sec 1 >>
+r: but i guess you've gotta do you
+<< wait_sec 1 >>
+r: good luck I guess
+<< wait_sec 1 >>
+t: that's that, i guess
+<< set_ending sid >>
+<< wait_sec 10 >>
+<< show_typing sid 20 >>
+===

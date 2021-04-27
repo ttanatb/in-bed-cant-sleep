@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 223abc62550636343a5df77eaad41702, type: 3}
+  m_Name: Contacts
+  m_EditorClassIdentifier: 
+  Models:
+  - ProfilePic: {fileID: 21300000, guid: 8ff05e854a5ad2549a766c45add4e55d, type: 3}
+    Name: person from dating app
+    LastMessage: 
+    HasUnreadMsg: 0
+    CharID: sid
+    LogNode: sid_log
+    StartingNode: sid_start
+    DialogueRunner: {fileID: 0}
+    DialogueUI: {fileID: 0}
+    Options: []
+  - ProfilePic: {fileID: 21300000, guid: 31bcd8510e653d44390d58ebbecf9d5c, type: 3}
+    Name: 23X-419 (2E4)
+    LastMessage: 
+    HasUnreadMsg: 0
+    CharID: car
+    LogNode: car_log
+    StartingNode: car_start
+    DialogueRunner: {fileID: 0}
+    DialogueUI: {fileID: 0}
+    Options: []
+  - ProfilePic: {fileID: 21300000, guid: 2e567c25579bc474e9dcf14261d0000d, type: 3}
+    Name: dumb child
+    LastMessage: 
+    HasUnreadMsg: 0
+    CharID: bff
+    LogNode: bff_log
+    StartingNode: bff_start
+    DialogueRunner: {fileID: 0}
+    DialogueUI: {fileID: 0}
+    Options: []
